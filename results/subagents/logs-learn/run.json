@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "subagents",
+  "role": "learn",
+  "error": null,
+  "timestamp": "2026-10-06T13:53:41.390917+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 326.8,
+  "tokens": {
+    "input": 175356,
+    "output": 21001,
+    "total": 196357
+  },
+  "tool_calls": 3,
+  "subagent_calls": 1,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": "structure: missing keys or wrong types"
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": "wrong number of entries (got 14)"
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": "KeyError: 'timestamp_utc'"
+    },
+    {
+      "name": "exception_fields",
+      "passed": false,
+      "detail": "KeyError: 'timestamp_utc'"
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": "KeyError: 'timestamp_utc'"
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": "KeyError: 'counts_by_service'"
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "KeyError: 'service'"
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "KeyError: 'service'"
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "RULE: the top-level object has \"schema_version\": 2 and \"generated_by\": \"log-triage\"."
+    }
+  ]
+}
