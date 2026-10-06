@@ -6,12 +6,12 @@
 
 | Họ tên | Mã sinh viên | Phần đóng góp |
 |---|---|---|
-| | | |
+| Lê Thị Thùy Trang | 2A202602678 | 100% |
 
 - Mô hình (tên deployment hoặc `LAB_MODEL`), nhiệt độ (`LAB_TEMPERATURE`), `recursion_limit`: `openai:gpt-4o-mini`, `0`, `60`
-- Phiên bản Deep Agents (`pip show deepagents`), hệ điều hành, chạy trực tiếp hay trong Docker: `0.7.21`, Windows 11, chạy trực tiếp
-- Số lần chạy tác vụ đã dùng / ngân sách:
-- Commit của tag `freeze`:
+- Phiên bản Deep Agents (`pip show deepagents`), hệ điều hành, chạy trực tiếp hay trong Docker: `0.7.21`, Windows 11, chạy trực tiếp trên máy cục bộ
+- Số lần chạy tác vụ đã dùng / ngân sách: 18 lượt chính thức (3 baseline learn, 3 baseline eval, 3 subagents learn, 3 subagents eval, 6 skills-auto all) + 1 lượt thử nghiệm dev
+- Commit của tag `freeze`: `010425550608be7d54f3ebcd67ac4578807ab5a3`
 
 ## 2. Giả thuyết (commit TRƯỚC tag `freeze`, Phần 4.0)
 
